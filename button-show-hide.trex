@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest manifest-version="0.1" xmlns="http://www.tableau.com/xml/extension_manifest">
+  <dashboard-extension id="com.tableau.extensions.example" extension-version="0.1.0">
+    <default-locale>en_US</default-locale>
+    <name resource-id="name"/>
+    <description>This extension is written exclusively for the LogixReports dashboard. It uses a date type and date picker to list the dates from the data source and then format based on what date type (month, quarter, year).</description>
+    <author name="Dan Girard" email="dgirard@logixhealth.com" organization="LogixHealth, Inc." website="https://www.logixhealth.com"/>
+    <min-api-version>0.1</min-api-version>
+    <source-location>
+      <url>https://cdnbi.logixhealth.com/extensions/button-show-hide/</url>
+    </source-location>
+    <icon>iVBORw0KGgoAAAANSUhEUgAAACoAAAApCAIAAADMNSyiAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAwElEQVR42mNIqdllHr4MPwor3EILdPzCMwag9XJOswcEjVo/av2o9aPWD4D17bNO4Vfkk7EeqI5GiGHV9pv4rY8u3fafZmDUelKtB9aVmMr6F5xFU/ayVQU/+vngxKj1Q8x6oE1YEZ2sJxLQyvrvF9d+OTQJDQHNopP17xZHYZr15dDEUeuHmPXPXn159PwTfkTDlE+76mQoWP/nw5NfD0/SAhG0/setfQzAJENQHY3Q15PzR60ftX7U+lHrR5b1AEwiWVEyzZRWAAAAAElFTkSuQmCC</icon>
+  </dashboard-extension>
+  <resources>
+    <resource id="name">
+      <text locale="en_US">LogixReports Button Show/Hide</text>
+    </resource>
+  </resources>
+</manifest>

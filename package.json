@@ -1,0 +1,9 @@
+{
+  "name": "button-show-hide",
+  "version": "1.0.0",
+  "description": "This will show/hide the LogixReports navigation buttons based on parameters",
+  "main": "button-show-hide.js",
+  "repository": "https://github.com/dangirent/button-show-hide",
+  "author": "Dan Girard",
+  "license": "MIT"
+}
